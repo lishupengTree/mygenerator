@@ -89,7 +89,7 @@ public class JavaMapperGenerator extends AbstractJavaClientGenerator {
         addCountByExampleMethod(interfaze);
         addDeleteByExampleMethod(interfaze);
         addDeleteByPrimaryKeyMethod(interfaze);
-        addInsertMethod(interfaze);
+//        addInsertMethod(interfaze);
         addInsertSelectiveMethod(interfaze);
         addSelectByExampleWithBLOBsMethod(interfaze);
         addSelectByExampleWithoutBLOBsMethod(interfaze);
@@ -98,8 +98,8 @@ public class JavaMapperGenerator extends AbstractJavaClientGenerator {
         addUpdateByExampleWithBLOBsMethod(interfaze);
         addUpdateByExampleWithoutBLOBsMethod(interfaze);
         addUpdateByPrimaryKeySelectiveMethod(interfaze);
-        addUpdateByPrimaryKeyWithBLOBsMethod(interfaze);
-        addUpdateByPrimaryKeyWithoutBLOBsMethod(interfaze);
+//        addUpdateByPrimaryKeyWithBLOBsMethod(interfaze);
+//        addUpdateByPrimaryKeyWithoutBLOBsMethod(interfaze);
 
         List<CompilationUnit> answer = new ArrayList<CompilationUnit>();
         if (context.getPlugins().clientGenerated(interfaze, null,
